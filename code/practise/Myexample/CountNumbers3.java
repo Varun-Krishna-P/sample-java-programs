@@ -9,7 +9,7 @@ public class CountNumbers3 {
 		try{
 			int number = input.nextInt();
 			int i = (int)Math.log10(number) + 1;
-			System.out.println("The total digits of the number is: " +i);			
+			System.out.println("The total digits of the125'"+ number + "' is: " +i);			
 		}
 		catch(Exception e){
 			

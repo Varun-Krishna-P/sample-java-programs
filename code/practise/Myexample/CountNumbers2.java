@@ -7,13 +7,14 @@ public class CountNumbers2 {
 		System.out.print("Please enter the a number to find its digits: ");
 		Scanner input  = new Scanner(System.in);
 		try{
-			int number, i = 0 ;
+			int number, i = 0, num;
 			number = input.nextInt();
-			while(number > 0){
-				number = number / 10;
+			num = number;
+			while(num > 0){
+				num = num / 10;
 				i++;				
 			}
-			System.out.println("The total digits of the number is: "+i);
+			System.out.println("The total digits of the'"+ number + "'is: "+i);
 			
 		}
 		catch(Exception e){
